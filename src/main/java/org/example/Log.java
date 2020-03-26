@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class Log implements Message {
 
     public void affichermessage(String S) {
-        System.out.println(LocalDateTime.now()+S);
+        System.out.println(LocalDateTime.now() + S);
     }
 
 }

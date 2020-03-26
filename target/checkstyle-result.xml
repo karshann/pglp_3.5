@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/home/karshan/Documents/Master-1/Programmation GL/pglp_3.5/src/main/java/org/example/UneClasseMetier.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="4" column="9" severity="error" message="La variable &apos;l&apos; devrait être privée et avoir des accesseurs." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="5" column="5" severity="error" message="Classe &apos;UneClasseMetier&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;uneMethodeMetier&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="/home/karshan/Documents/Master-1/Programmation GL/pglp_3.5/src/main/java/org/example/Log.java">
+<error line="7" column="5" severity="error" message="Classe &apos;Log&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;affichermessage&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="7" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="7" column="33" severity="error" message="Le paramètre S devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="7" column="40" severity="error" message="Le nom &apos;S&apos; n&apos;est pas conforme à l&apos;expression &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+<file name="/home/karshan/Documents/Master-1/Programmation GL/pglp_3.5/src/main/java/org/example/Message.java">
+<error line="4" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="4" column="33" severity="error" message="Le nom &apos;S&apos; n&apos;est pas conforme à l&apos;expression &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+</checkstyle>
